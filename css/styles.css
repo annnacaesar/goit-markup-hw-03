@@ -85,9 +85,16 @@ button {
 .projects {
 	display: flex;
 }
+
+.container-header {
+	padding-top: 24px;
+	padding-bottom: 25px;
+	align-items: center;
+}
+
 .logo {
 	display: inline-block;
-	margin: 24px 93px 25px 0;
+	padding-right: 93px;
 	color: var(--primery-text-color);
 	font-family: Raleway;
 	font-weight: 700;
@@ -95,12 +102,15 @@ button {
 	line-height: 1.19;
 }
 
-.logo span {
+.web {
 	color: var(--accent-color);
+}
+.studio {
+	margin-left: -3px;
 }
 
 .site-nav-list {
-	margin: 32px 331px 32px 0;
+	padding-right: 331px;
 }
 
 .site-nav-list li:not(:last-child) {
@@ -137,8 +147,8 @@ button {
 	color: var(--accent-color);
 }
 .contacts-header li {
-	margin: 32px 0;
-	padding-right: 47px;
+	/* margin: 32px 0; */
+	padding-right: 50px;
 }
 
 .contacts-header li:last-child {
@@ -152,22 +162,22 @@ button {
 	background-color: var(--third-background-color);
 }
 
-.hero .container {
+.container-hero {
 	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-bottom: 210px;
+	text-align: center;
 }
 
 .hero-title {
 	display: inline-block;
-
 	margin-bottom: 30px;
+	width: 696px;
 
 	color: var(--third-text-color);
 	font-style: normal;
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 60px;
-	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 }
@@ -290,6 +300,7 @@ button {
 }
 
 .button {
+	min-width: 73px;
 	padding: 6px 22px;
 	border-color: transparent;
 	border-radius: 4px;
