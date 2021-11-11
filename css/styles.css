@@ -42,6 +42,10 @@ button {
 	cursor: pointer;
 }
 
+img {
+	display: block;
+}
+
 .visually-hidden {
 	position: absolute;
 	white-space: nowrap;
@@ -70,15 +74,7 @@ button {
 
 /* #region HEADER */
 
-.page .container,
-.site-nav-list,
-.contacts-header,
-.work,
-.button-hero,
-.skills,
-.team,
-.button-list,
-.projects {
+.show {
 	display: flex;
 }
 
