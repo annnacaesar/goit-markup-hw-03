@@ -76,6 +76,7 @@ img {
 
 .show {
 	display: flex;
+	align-items: center;
 }
 
 .page {
@@ -101,11 +102,13 @@ img {
 	margin-left: -3px;
 }
 
-.site-nav-list li:not(:last-child) {
+.site-nav-list .item:not(:last-child) {
 	margin-right: 50px;
 }
 
 .site-nav .link {
+	padding-top: 32px;
+	padding-bottom: 32px;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
@@ -123,6 +126,8 @@ img {
 }
 
 .contacts-header .link {
+	padding-top: 32px;
+	padding-bottom: 32px;
 	color: var(--secondary-text-color);
 	font-weight: 500;
 	font-size: 14px;
@@ -138,11 +143,11 @@ img {
 .contacts-header .link:focus {
 	color: var(--accent-color);
 }
-.contacts-header li {
+.contacts-header .item {
 	margin-right: 50px;
 }
 
-.contacts-header li:last-child {
+.contacts-header .item:last-child {
 	margin-right: 0;
 }
 /* #endregion */
@@ -223,7 +228,7 @@ img {
 }
 
 .skills .section-text {
-	padding-top: 10px;
+	margin-top: 10px;
 
 	font-size: 14px;
 	line-height: 1.71;
@@ -248,7 +253,7 @@ img {
 }
 
 .work li:not(:last-child) {
-	padding-right: 30px;
+	margin-right: 30px;
 }
 
 .team {
@@ -365,6 +370,7 @@ img {
 	background-color: var(--footer-background-color);
 }
 .footer .logo {
+	margin-right: 0;
 	margin-bottom: 20px;
 	color: var(--third-text-color);
 }
